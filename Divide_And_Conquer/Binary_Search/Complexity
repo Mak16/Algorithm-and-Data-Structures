@@ -1,4 +1,4 @@
-Recursion Relation : 
+Recurrence Relation : 
 
 T(n) = {
           O(1)  if n==1
