@@ -1,0 +1,12 @@
+Recurrence relation :
+
+T(n) = {
+          O(1)  if n==1
+          T( n/2 ) + O(1) if n>1
+        }
+        
+Time Complexity : log(n)
+
+Space Complexity( B = Bytes) : 4B [two int number] + log(n)B [Stack Space]
+                              =  O( log(n) )
+                              
