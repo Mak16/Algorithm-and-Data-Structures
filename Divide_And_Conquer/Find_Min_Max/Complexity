@@ -1,0 +1,9 @@
+Recurrence Relation : 
+
+T(n) = { c  if(n==1)
+          2T(n/2)+c  if(n>1) }
+          
+Time Complexity : O(n)
+
+Space Complexity(B = Bytes) : 2B + nB (array size) + log(n)B (stack space)
+                            = O(n)
