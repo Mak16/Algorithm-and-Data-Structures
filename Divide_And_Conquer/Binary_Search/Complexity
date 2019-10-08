@@ -1,0 +1,16 @@
+Recursion Relation : 
+
+T(n) = {
+          O(1)  if n==1
+          T(n/2)+c  if n>1  
+        }
+  
+Time Complexity(with recr & without recr) : 
+Worst case & average case = O( log(n) )
+best case  =  O(1)
+
+Space Complexity(with recr) : nB [array size] + log(n)B [stack space]
+                            = O( n )
+                            
+Space Complexity(without recr) : nB [array size] + cB [variable size]
+                            = O( n )
