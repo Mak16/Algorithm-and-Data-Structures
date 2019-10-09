@@ -2,7 +2,7 @@ Recurrence Relation :
 
 T(n) = {
           O(1)  if n==1
-          O(1) [finding  mid ] + 2T(n/2) [MS for two partition] + O(n) [merging]  = 2T(n/2) + O(n) if n>1
+          O(1) [finding  mid ] + 2T(n/2) [MS for two partition] + O(n) [merging]  = 2T(n/2) + n if n>1
       }
       
 Time Complexity (same for all cases ): O( logn )
