@@ -1,0 +1,13 @@
+Recurrence Relation :
+
+T( K ) = {
+            n [storing array in o/p array]  if k==1
+            O(1) + T(k/2) + T(k/2) + kn [merging]  if k>1
+}
+
+Time Complexity(All cases) : O ( nklogk )
+
+Space complexity : nk [input] + nk [temp array] + logk [stack space]
+                 =  O( nk )
+                 
+                 
