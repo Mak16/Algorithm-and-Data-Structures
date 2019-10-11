@@ -1,0 +1,15 @@
+Recurrence Relation : 
+
+T(n) = 
+{
+      O(1)  if n==1
+      O(n) + T(l-m) or T(r-m)  if n>1 
+}
+
+Time Complexity : 
+best case : n + T(n/2) = O(n)
+worst case : n + T(n-1) = O(n^2)
+
+stack space :
+best case : O(n)[array size] + O(logn) [stack space]
+worst case : O(n) [array size] + O(n) [stack space]
