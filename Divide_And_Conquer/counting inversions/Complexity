@@ -1,0 +1,11 @@
+Recurrence relation :
+
+T(n) = {
+          O(1)  if n==1
+          2T(n/2) + n   if n>1
+}
+
+Time complexity [all cases] : O( nlogn )
+
+Space complexity [all cases] : O(n) [array size] + O( logn ) [stack space] + O(n) [Temp array]
+                             = O(n)
