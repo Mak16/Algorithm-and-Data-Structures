@@ -1,0 +1,38 @@
+Complexity analysis : 
+
+Total comaprision :
+worst case = 1 + 2 + 3 + -- -- -- + n-1
+           = n(n-1)/2
+best case = 1 + 1 + 1 + -- -- -- + 1
+           = n-1
+
+Total swaps :
+worst case = 1 + 2 + 3 + -- -- -- + n-1
+          = n(n-1)/2
+best case = 0 +0 + 0 + -- -- - - + 0
+          = 0
+          
+time : total comparision + total Swaps
+ 
+worst case = O( n^2 )
+best case = O( n )  [for almost sorted array ]
+
+Analysis : 
+
+if 1 element not sorted while n-1 element sorted then :
+TC =  n-1 [ sorting n-1 sorted element ] + n [ sorting 1 element ] = O(n)
+
+if 2 element not sorted while n-2 element sorted then :
+TC =  n-2 [ sorting n-2 sorted element ] + 2n [ sorting 2 element ] = O(n)
+
+if k element not sorted while n-k element sorted then [ k = constant ]  :
+TC =  n-k [ sorting n-k sorted element ] + kn [ sorting k element ] = O(n)
+          
+          
+          
+          
+          
+          
+          
+          
+          
