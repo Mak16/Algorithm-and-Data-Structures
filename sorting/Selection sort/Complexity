@@ -1,0 +1,15 @@
+Complexity analysis : 
+
+Total Comparision : (n-1) + (n-2)+ ------- + 3+2+1
+  = (n-1)n/2
+ 
+Total swaps : 1 + 1 +1 -- -- - -- 1
+  = n-1
+
+Time = Total comparision + total swaps 
+    = n(n-1)/2 + n-1
+    = O( n^2 ) [ for every case ]
+    
+    
+    
+    
