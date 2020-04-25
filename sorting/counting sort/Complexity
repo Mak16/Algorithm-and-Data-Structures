@@ -1,0 +1,7 @@
+Complexity analysis : 
+
+time[ n : size , r : range ] : O(n) [finding min max] + O(n) [counting] + O(r) [sum] + O(n) [calculate op] + O(n)[ copy array]
+                             = O(n+r)
+                             
+space : O(n) [array size] + O(r) [temp array]
+       = O(n+r)

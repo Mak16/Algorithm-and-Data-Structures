@@ -1,0 +1,25 @@
+Complexity analysis : 
+array size = n
+
+1st pass : WC =n-1 comparision & n-1 swaps 
+          BC = n-1 com & 0 swaps
+2nd pass : WC =n-2 comparision & n-2 swaps 
+          BC = n-2 com & 0 swaps
+          :
+          :
+          :
+n-1th pass : WC =1 comparision & 1 swaps 
+          BC = 1 com & 0 swaps
+
+Total comparision = 1 + 2 + 3 - - - - (n-1) = (n-1)n/2 = O(n^2)  [all cases]
+ 
+total swaps = 1 + 2 + 3 - - - - (n-1) = (n-1)n/2 = O(n^2) 
+              minimum = 0 + 0 + 0 ----- 0 = 0 
+              
+Time = Total Comparision + total swaps = O(n^2)
+but if we put condition for 0 swaps the BC=O(n)
+
+
+
+
+     
