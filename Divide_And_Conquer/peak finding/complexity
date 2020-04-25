@@ -1,0 +1,14 @@
+problem : find an index of peak element in the array.
+#there can be multiple peak
+# 0<k<n  if arr[k] >= arr[k-1] and arr[k] >= arr[k+1]  then peak at k
+# if k==0 and arr[k] > arr[k+1] then peak at k
+# if k==n-1 and arr[k] > arr[k-1] then peak at k
+
+Recurrence relation :
+t(n) = t(n/2)+c
+
+time complexity = O(log n)
+
+space complexity = O(n) [#size of array]
+
+#to find all the peak :time complexity = O(n)
